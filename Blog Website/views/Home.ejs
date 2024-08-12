@@ -1,0 +1,17 @@
+<%- include("header") -%>
+    <div class="container">
+        <h1>Home</h1>
+        <% for(i=0;i<posts.length;i++){ %>
+            <div class="blog">
+                <h2>
+                    <%= posts[i]['title'] %>
+                </h2>
+                <p>
+                    <%= posts[i]['blog'].substring(0,100)+" ..... " %>
+                    <a class="blog-link" href="/posts/<%=posts[i]['title']%>">Read More</a>
+                </p>
+            </div>
+            <% } %>
+    </div>
+    <%- include("footer") -%>
+    
