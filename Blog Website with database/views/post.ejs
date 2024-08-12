@@ -1,0 +1,20 @@
+<%- include("header") -%>
+
+<div class="container post">
+    
+  <h1><%=title%></h1>
+  <p><%=blog%></p>
+  <div class="buttons" id="buttons">
+    <form action="/delete" method="post" id="delete">
+      <button class="btn-primary" name="del" value="<%=title%>">Delete</button>
+    </form>
+    <form action="/blogupdate/<%=title%>">
+      <button class="btn-primary" name="del" value="<%=title%>">Update</button>
+    </form>
+  </div>
+</div>
+
+
+<%- include("footer") -%>
+
+

@@ -1,0 +1,16 @@
+<%- include("header")   -%>
+<div class="container">
+    <h1>Publish Blogs</h1>
+
+    <form class="flex form" action="../update" method="post">
+        <label for="title">
+          <h3>Title:</h3>  <input name="title" value="<%=title%>">
+        </label>
+        <label for="blog">
+           <h3> Blog :</h3> <textarea row="20" cols="10" name="blog" ><%=blog%></textarea>
+        </label>
+        <button type="submit" class="btn-primary" name="prevtitle" value="<%=title%>" >Save Change</button>
+    </form>
+
+</div>
+<%- include("footer") -%>
