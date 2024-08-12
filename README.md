@@ -22,7 +22,7 @@ The main technologies and tools used in this repository include:
 - MongoDB: NoSQL database used to store application data.
 - Other tools and libraries: Additional npm packages and tools as required for specific projects (e.g., bcrypt for hashing passwords, JWT for token-based authentication, etc.).
 
-'''
+```
 Getting Started
 To get started with any of the projects in this repository, you'll need to have Node.js and npm (Node Package Manager) installed on your local machine. You can download them from nodejs.org.
 
@@ -45,4 +45,4 @@ Run the application:
 bash
 Copy code
 npm start
-'''
+```
